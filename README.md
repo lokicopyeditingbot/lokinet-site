@@ -1,1 +1,1 @@
-http://zeronet.io
+https://lokinet.org
