@@ -33,7 +33,10 @@ a:focus { transition: all 0.3s }
 .arrow-right:before { border: solid transparent; content: " "; height: 0; width: 0; pointer-events: none; border-color: rgba(255, 255, 255, 0); border-left-color: #ffffff; border-width: 16px; float: right; left: 50px; position: relative; margin-top: 28px; }
 
 .head-top { background: #4962DD; background: linear-gradient(45deg, #6B14D3 0, #7A26E2 25%, #4962DD 60%); color: white; text-align: center; padding: 70px 10px; min-height: 556px; }
-.head-top h1 { display: inline-block; border: 5px solid white; height: 97px; padding: 10px; line-height: 100px; }
+.head-top h1 img {
+  width: 50%;
+  height: auto;
+}
 .head-top a { color: white; }
 .head-top .download { margin-top: 44px; line-height: 44px; }
 .head-top .download-windows, .head-top .download-mac, .head-top .download-oldmac, .head-top .download-linux, .head-top .download-android { display: none }

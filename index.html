@@ -25,7 +25,7 @@ if ($lang != "en") ob_start();
 
 <html>
 <head>
- <title>ZeroNet: Decentralized websites using Bitcoin crypto and the BitTorrent network</title>
+ <title>Lokinet: Privately Access censorship resistant websites</title>
  <meta charset="utf-8">
  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
  <!--<? /* We inline css using php include -->
@@ -89,7 +89,7 @@ else if (navigator.appVersion.toLowerCase().indexOf("mac os x")!=-1) {
 else if (navigator.appVersion.toLowerCase().indexOf("android")!=-1) document.body.className = "platform-android";
 else if (navigator.appVersion.toLowerCase().indexOf("linux")!=-1) document.body.className = "platform-linux";
 
-function download(platform) {
+/*function download(platform) {
   var req = new XMLHttpRequest();
   req.onload = function (res) {
     window.location = JSON.parse(req.responseText)[0].assets[0].browser_download_url;
@@ -97,63 +97,50 @@ function download(platform) {
   req.open("GET", "https://api.github.com/repos/HelloZeroNet/ZeroNet-kivy/releases", true);
   req.send();
   return false;
-}
+}*/
 </script>
 
 <!-- Top -->
 <div class="block block-100 head-top">
- <h1>ZeroNet</h1>
- <h2>Open, free and uncensorable websites,<br>using Bitcoin cryptography and BitTorrent network</h2>
+ <h1><img src="img/lokinet-brand.svg"> </h1>
+ <h2>Privately Access censorship resistant websites,<br>using Onion routing and incentivized routers. 
+</h2>
  <div class="download download-windows">
   <div class="button-container">
-   <a href="https://github.com/HelloZeroNet/ZeroNet-win/archive/dist/ZeroNet-win.zip" class="button button-outline">Download for Windows</a><br>
-   <small>9.6MB &middot; <span>Unpack &middot; Run ZeroNet.exe</span></small>
+   <a href="https://github.com/loki-project/loki-network/releases/download/v0.3.1/lokinet-v0.3.1a-dff0c00-190204-win.exe" class="button button-outline">Download for Windows</a><br>
+   <small>3.48MB &middot; <span>Unpack &middot; Run Lokinet.exe</span></small>
   </div>
   <div class="button-container" style="margin: 0px 10px">
    <span style="margin: 0px 10px">or</span>
-   <a href="https://github.com/HelloZeroNet/ZeroNet#user-content-how-to-join">Other platforms and source code</a>
+   <a href="https://github.com/loki-project/loki-network/releases">Other platforms and source code</a>
   </div>
  </div>
 
  <div class="download download-mac">
   <div class="button-container">
-   <a href="https://github.com/HelloZeroNet/ZeroNet-mac/archive/dist/ZeroNet-mac.zip" class="button button-outline">Download for macOS</a><br>
-   <small>8.8MB &middot; <span>Download &middot; Run ZeroNet.app</span></small>
+   <a href="https://github.com/loki-project/loki-network/releases/download/v0.3.1/lokinet-v0.3.1-aa70efca-190204-mac.zip" class="button button-outline">Download for macOS</a><br>
+   <small>5.5MB &middot; <span>Download &middot; Run Lokinet.app</span></small>
   </div>
   <div class="button-container" style="margin: 0px 10px">
    <span style="margin: 0px 10px">or</span>
-   <a href="https://github.com/HelloZeroNet/ZeroNet#user-content-how-to-join">Other platforms and source code</a>
+   <a href="https://github.com/loki-project/loki-network/releases">Other platforms and source code</a>
   </div>
  </div>
 
  <div class="download download-linux">
   <div class="button-container">
-   <a href="https://github.com/HelloZeroNet/ZeroBundle/raw/master/dist/ZeroBundle-linux64.tar.gz" class="button button-outline">Download for Linux 64bit</a><br>
-   <small>15MB &middot; <span>Unpack &middot; Run ZeroNet.sh</span></small>
+   <a href="https://github.com/loki-project/loki-network/releases/download/v0.3.1/lokinet-v0.3.1-aa70efca-190204-lnx64.zip" class="button button-outline">Download for Linux 64bit</a><br>
+   <small>28.1MB &middot; <span>Unpack &middot; Run Lokinet.sh</span></small>
   </div>
   <div class="button-container" style="margin: 0px 10px">
    <span style="margin: 0px 10px">or</span>
-   <a href="https://github.com/HelloZeroNet/ZeroNet#user-content-how-to-join">Other platforms and source code</a>
-  </div>
- </div>
-
- <div class="download download-android">
-  <div class="button-container">
-   <a href="https://github.com/HelloZeroNet/ZeroNet-kivy/releases/latest" class="button button-outline" onclick="return window.download('android')">Download Android package (experimental)</a><br>
-   <small>14.7MB &middot; <span>Install &middot; Launch ZeroNet</span></small>
-  </div>
-  <div class="button-container" style="margin: 0px 10px">
-   <span style="margin: 0px 10px">or</span>
-   <a href="https://github.com/HelloZeroNet/ZeroNet-kivy">View and help develop Android version</a><br>
-  </div>
-  <div class="button-container" style="margin: 0px 10px">
-   <a href="https://github.com/HelloZeroNet/ZeroNet#user-content-how-to-join">Other platforms and source code</a>
+   <a href="https://github.com/loki-project/loki-network/releases">Other platforms and source code</a>
   </div>
  </div>
 
  <div class="download download-other">
   <div class="button-container">
-   <a href="https://github.com/HelloZeroNet/ZeroNet#user-content-how-to-join" class="button button-outline">Install instructions</a><br>
+   <a href="https://github.com/loki-project/loki-network/releases" class="button button-outline">Install instructions</a><br>
    <small>Windows, Linux, Mac supported</small>
   </div>
  </div>
@@ -190,28 +177,33 @@ function download(platform) {
 
 <!-- 1. line -->
 <div class="block block-33 block-p2p">
- <h3>Peer-to-Peer</h3>
- <h4>Your content distributed directly to other visitors without any central server.</h4>
+ <h3>Private</h3>
+ <h4>All data that travels through Lokinet is encrypted and bounced through multiple nodes hiding the true origin.</h4>
 </div>
 
 <div class="block block-34 block-detail arrow-left block-p2p-detail">
  <ul>
-  <li><h5>Uncensored</h5>It's nowhere because it's everywhere!</li>
-  <li><h5>No hosting costs</h5>Sites are served by visitors.</li>
-  <li><h5>Always accessible</h5>No single point of failure.</li>
+  <li><h5>No IP addresses</h5>Your real IP address isn't revealed to .loki addresses</li>
+  <li><h5>Protocol Agnostic</h5>Lokinet can carry any IP based protocol.</li>
+  <li><h5>Application Support</h5>Lokinet intercepts DNS requests, so it’s easy for your applications to use Lokinet.</li>
  </ul>
 </div>
 
 <div class="block block-33 block-simple">
- <h3>Simple</h3>
- <h4>No configuration needed:<br>Download, unpack and start using it.</h4>
+ <h3>Free</h3>
+ <h4>Using the Loki coin provides optional upgrades, but the core of Lokinet is free</h4>
+  <div class="button-container">
+  <a href="https://docs.google.com/presentation/d/1_2qK1IuOKJ51pgBvllZ9Yu7Au2l551t3XBgyTSvilew/pub?start=false&loop=false&delayms=3000" class="button button-outline" target="_blank">Loki coin features</a>
+  </div>
 </div>
 
 
 <!-- 2. line -->
 <div class="block block-33 block-detail arrow-right block-namecoin-detail">
- <h3>.bit domains</h3>
- <h4>Decentralized domains using Namecoin cryptocurrency.</h4>
+ <h3>NO CENTRAL SERVERS</h3>
+ <h4>Routing in Lokinet doesn’t rely on any single server</h4>
+  <a href="https://docs.google.com/presentation/d/1_2qK1IuOKJ51pgBvllZ9Yu7Au2l551t3XBgyTSvilew/pub?start=false&loop=false&delayms=3000" class="button button-outline" target="_blank">Lokinet Routing</a>
+  </div>
 </div>
 
 <div class="block block-67 block-namecoin"></div>
@@ -219,13 +211,13 @@ function download(platform) {
 
 <!-- 3. line -->
 <div class="block block-50 block-password">
- <h3>No passwords</h3>
- <h4>Your account is protected by the same cryptography as your Bitcoin wallet.</h4>
+ <h3>CENSORSHIP RESISTANT</h3>
+ <h4>Internet Service Providers can’t block access to your websites in Lokinet.</h4>
 </div>
 
 <div class="block block-50 block-fast">
- <h3>Fast</h3>
- <h4>Page response time is not limited by your connection speed.</h4>
+ <h3>TRUSTLESS</h3>
+ <h4>The router list in Lokinet is held on a blockchain, Users can always verify the network state</h4>
 </div>
 
 
@@ -233,8 +225,9 @@ function download(platform) {
 <div class="block block-67 block-dynamic"></div>
 
 <div class="block block-33 block-detail arrow-left block-dynamic-detail">
- <h3>Dynamic content</h3>
- <h4>Real-time updated, multi-user websites.</h4>
+ <h3>Onion routing </h3>
+ <h4>Unlike a VPN you don’t need to trust a single server since Lokinet uses onion routing
+.</h4>
  <div class="button-container">
   <a href="https://docs.google.com/presentation/d/1_2qK1IuOKJ51pgBvllZ9Yu7Au2l551t3XBgyTSvilew/pub?start=false&loop=false&delayms=3000" class="button button-outline" target="_blank">How does it work?</a>
  </div>
@@ -243,28 +236,28 @@ function download(platform) {
 
 <!-- 5. line -->
 <div class="block block-33 block-everywhere">
- <h3>Works everywhere</h3>
- <h4>Supports any modern browser on<br>Windows, Linux or Mac platforms.</h4>
+ <h3>cross platform</h3>
+ <h4>Supports any modern browser on  Windows,<br>Linux or Mac platforms.</h4>
 </div>
 
 <div class="block block-34 block-anon">
- <h3>Anonymity</h3>
- <h4>You can easily hide your IP address using the Tor network.</h4>
+ <h3>SYBIL RESISTANT</h3>
+ <h4>Lokinet has a novel model for Market based Sybil resistance.</h4>
  <div class="button-container">
-  <a href="http://zeronet.readthedocs.org/en/latest/faq/#how-to-use-zeronet-with-tor" class="button button-outline" target="_blank">Read the FAQ</a>
+  <a href="https://lokidocs.com/Advanced/SybilResistance/" class="button button-outline" target="_blank">See how</a>
  </div>
 </div>
 
 <div class="block block-33 block-offline">
- <h3>Offline</h3>
- <h4>Browse the sites you&#39;re seeding even if your internet connection is down.</h4>
+ <h3>SIMPLE SETUP</h3>
+ <h4>Minimal configuration needed:<br>Download, install and start using.</h4>
 </div>
 
 <!-- 6. line -->
 <div class="block block-100 block-opensource">
  <h3>Open Source</h3>
- <h4>Developed by the community for the community.</h4>
- <div><a href="http://zeronet.readthedocs.org/en/latest/help_zeronet/donate/" class="button button-outline" target="_blank">Please donate to keep this project alive</a></div>
+ <h4>Lokinet is fully open source meaning anyone can contribute</h4>
+ <div><a href="https://github.com/loki-project/loki-network" class="button button-outline" target="_blank">See our Repository </a></div>
 </div>
 
 <!-- EOF block -->
@@ -276,9 +269,9 @@ function download(platform) {
 <div class="block block-50 block-foot">
 
  <h2>
-  <span>We believe in</span><br>
-  <span>open, free, and uncensored</span><br>
-  <span>network and communication.</span>
+  <span>Our Mission</span><br>
+  <span>Explore and Communicate</span><br>
+  <span>With Absolute Freedom.</span>
  </h2>
 
 </div>
@@ -335,9 +328,9 @@ addAnimationDelay()
 
 <div class="block block-50 block-follow" style="opacity: 1; transform: none">
  <a href="https://www.facebook.com/HelloZeroNet"><svg class="icon icon-facebook" width=50><use xlink:href="#icon-facebook"></use></svg></a>
- <a href="https://twitter.com/HelloZeroNet"><svg class="icon icon-twitter" width=50><use xlink:href="#icon-twitter"></use></svg></a>
- <a href="http://www.reddit.com/r/zeronet/"><svg class="icon icon-reddit" width=50><use xlink:href="#icon-reddit"></use></svg></a>
- <a href="https://github.com/HelloZeroNet/ZeroNet"><svg class="icon icon-github" width=50><use xlink:href="#icon-github"></use></svg></a>
+ <a href="https://twitter.com/loki_project"><svg class="icon icon-twitter" width=50><use xlink:href="#icon-twitter"></use></svg></a>
+ <a href="https://www.reddit.com/r/LokiProject/"><svg class="icon icon-reddit" width=50><use xlink:href="#icon-reddit"></use></svg></a>
+ <a href="https://github.com/loki-project/loki-network"><svg class="icon icon-github" width=50><use xlink:href="#icon-github"></use></svg></a>
 </div>
 
 <div style="clear: both"></div>
