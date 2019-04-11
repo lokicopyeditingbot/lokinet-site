@@ -33,8 +33,8 @@ a:focus { transition: all 0.3s }
 .block-sybil .button { border-color: rgba(253, 252, 223, 0.24);; color: #FDFCDF; margin: 20px; margin-bottom: 10px; display: inline-block; }
 .block-sybil .button:hover { border-color: rgba(253, 252, 223, 1); }
 
-.arrow-left:before { border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; border-color: rgba(255, 255, 255, 0); border-right-color: #ffffff; border-width: 16px; margin-top: 53px; margin-left: -52px; }
-.arrow-right:before { border: solid transparent; content: " "; height: 0; width: 0; pointer-events: none; border-color: rgba(255, 255, 255, 0); border-left-color: #ffffff; border-width: 16px; float: right; left: 50px; position: relative; margin-top: 28px; }
+.arrow-left:before { border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; border-color: rgba(255, 255, 255, 0); border-right-color: #E8F5E2; border-width: 16px; margin-top: 53px; margin-left: -52px; }
+.arrow-right:before { border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; border-color: rgba(255, 255, 255, 0); border-left-color: #E8F5E2; border-width: 16px; float: right; left: 50px; position: relative; margin-top: 28px; }
 
 .head-top { background: #4962DD; background: linear-gradient(45deg, #20B873 0, #27C43E 25%, #6CBE45 60%); color: white; text-align: center; padding: 70px 10px; min-height: 556px; }
 .head-top h1 img {
@@ -57,14 +57,14 @@ a:focus { transition: all 0.3s }
 .block-simple { background-color: #5C5D60; }
 .block-namecoin { background: #EC6F6D url('../img/namecoin.png') top left no-repeat }
 .block-namecoin-detail h3 { color: #EC6F6D; }
-.block-password { background-color: #999; color: white; background: #999 url('../img/password.png') bottom right no-repeat }
+.block-password { background-color: #999; color: white; background: #999 url('../img/password-1.png') bottom right repeat-x }
 .block-fast { background-color: #231F20; color: white; background: #231F20 url('../img/fast.png') bottom left no-repeat }
 .block-dynamic { background: #1ABC9C url('../img/zerotalk.png') 30% 0% no-repeat; }
 .block-dynamic-detail h3 { color: #FFFFFF; }
 .block-everywhere { background-color: #F33A58; color: white; background: #F33A58 url('../img/browsers.png') bottom center no-repeat }
 .block-anon { background-color: #34495E; color: white; background: #34495E url('../img/anon.png') bottom right no-repeat }
 .block-sybil { background-color: #5C5D60; color: white; background: #5C5D60 url('../img/sybil.png') bottom center no-repeat }
-.block-offline { background-color: #8CC152; color: white; background: #8CC152 url('../img/offline.png') bottom left repeat-x }
+.block-offline { background-color: #8CC152; color: white; background: #8CC152 url('../img/offline-1.png') bottom no-repeat }
 .block-opensource { min-height: 290px; text-align: center; background-color: #150A45; color: #FFF; background: #150A45 url('../img/opensource.png') center left no-repeat; }
 .block-opensource h4 { padding-bottom: 20px }
 .block-opensource .button { color: white }
@@ -72,7 +72,7 @@ a:focus { transition: all 0.3s }
 .block-foot h2 span { display: inline-block; background-color: #6B14D3; color: white; padding: 6px 10px; margin: 1px; background: linear-gradient(45deg, #20B873 0, #27C43E 15%, #6CBE45 120%); }
 .block-foot, .block-follow { min-height: 240px; }
 .block-follow { text-align: right; padding: 40px; padding-bottom: 0px }
-.block-follow .icon { margin: 10px; fill: #AAA; transition: all 0.3s; }
+.block-follow .icon { margin: 10px; fill: #231F20; transition: all 0.3s; }
 .block-follow .icon:hover { fill: #6CBE45; transition: none; }
 .block-follow .icon:active { fill: #4962DD; transition: none; }
 
