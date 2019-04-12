@@ -36,9 +36,9 @@ a:focus { transition: all 0.3s }
 .arrow-left:before { border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; border-color: rgba(255, 255, 255, 0); border-right-color: #E8F5E2; border-width: 16px; margin-top: 53px; margin-left: -52px; }
 .arrow-right:before { border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; border-color: rgba(255, 255, 255, 0); border-left-color: #E8F5E2; border-width: 16px; float: right; left: 50px; position: relative; margin-top: 28px; }
 
-.head-top { background: #4962DD; background: linear-gradient(45deg, #20B873 0, #27C43E 25%, #6CBE45 60%); color: white; text-align: center; padding: 70px 10px; min-height: 556px; }
+.head-top { background: #4962DD; background: linear-gradient(45deg, #20B873 0, #27C43E 25%, #6CBE45 60%); color: white; text-align: center; padding: 70px 10px; min-height: 556px; background: url('../img/bg.png') center no-repeat 50% }
 .head-top h1 img {
-  width: 50%;
+  width: 65%;
   height: auto;
 }
 .head-top a { color: white; }
@@ -68,6 +68,7 @@ a:focus { transition: all 0.3s }
 .block-opensource { min-height: 290px; text-align: center; background-color: #150A45; color: #FFF; background: #150A45 url('../img/opensource.png') center left no-repeat; }
 .block-opensource h4 { padding-bottom: 20px }
 .block-opensource .button { color: white }
+.block-coin { background-color: #34495E; color: white; background: #34495E url('../img/coin.png') bottom right no-repeat }
 
 .block-foot h2 span { display: inline-block; background-color: #6B14D3; color: white; padding: 6px 10px; margin: 1px; background: linear-gradient(45deg, #20B873 0, #27C43E 15%, #6CBE45 120%); }
 .block-foot, .block-follow { min-height: 240px; }
