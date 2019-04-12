@@ -36,9 +36,9 @@ a:focus { transition: all 0.3s }
 .arrow-left:before { border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; border-color: rgba(255, 255, 255, 0); border-right-color: #E8F5E2; border-width: 16px; margin-top: 53px; margin-left: -52px; }
 .arrow-right:before { border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; border-color: rgba(255, 255, 255, 0); border-left-color: #E8F5E2; border-width: 16px; float: right; left: 50px; position: relative; margin-top: 28px; }
 
-.head-top { background: #4962DD; background: linear-gradient(45deg, #20B873 0, #27C43E 25%, #6CBE45 60%); color: white; text-align: center; padding: 70px 10px; min-height: 556px; background: url('../img/bg.png') center no-repeat 50% }
+.head-top { background: #4962DD; background: linear-gradient(45deg, #20B873 0, #27C43E 25%, #6CBE45 60%); color: white; text-align: center; padding: 70px 10px; min-height: 556px; background: url('../img/loki-visual-1.png') center no-repeat }
 .head-top h1 img {
-  width: 65%;
+  width: 55%;
   height: auto;
 }
 .head-top a { color: white; }
