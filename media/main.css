@@ -36,7 +36,19 @@ a:focus { transition: all 0.3s }
 .arrow-left:before { border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; border-color: rgba(255, 255, 255, 0); border-right-color: #E8F5E2; border-width: 16px; margin-top: 53px; margin-left: -52px; }
 .arrow-right:before { border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; border-color: rgba(255, 255, 255, 0); border-left-color: #E8F5E2; border-width: 16px; float: right; left: 50px; position: relative; margin-top: 28px; }
 
-.head-top { background: #4962DD; background: linear-gradient(45deg, #20B873 0, #27C43E 25%, #6CBE45 60%); color: white; text-align: center; padding: 70px 10px; min-height: 556px; background: url('../img/loki-visual-1.png') center no-repeat }
+.head-top {
+	background: linear-gradient(45deg, #20B873 0, #27C43E 25%, #6CBE45 60%);
+	color: white;
+	text-align:
+	center;
+	padding: 70px 10px;
+	min-height: 556px;
+	background: url('../img/loki-visual-1.png') center center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 .head-top h1 img {
   width: 55%;
   height: auto;
@@ -52,14 +64,30 @@ a:focus { transition: all 0.3s }
 .platform-windows .head-top .download-other, .platform-mac .head-top .download-other, .platform-oldmac .head-top .download-other, .platform-linux .head-top .download-other, .platform-android .head-top .download-other { display: none }
 
 /*.block-p2p { background-color: #E6E9ED; color: #555; }*/
-.block-p2p { background-color: #5368C3; color: #FFF; background: #2D2D2D url('../img/p2p-3.png') bottom left no-repeat }
+.block-p2p { background-color: #5368C3; color: #FFF; background: #2D2D2D url('../img/p2p-3.png') center center no-repeat }
 .block-p2p-detail { padding-top: 0px; position: relative }
 .block-simple { background-color: #5C5D60; }
-.block-namecoin { background: #EC6F6D url('../img/namecoin.png') top left no-repeat }
+.block-namecoin {
+	background: #EC6F6D url('../img/namecoin.png') center center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 .block-namecoin-detail h3 { color: #EC6F6D; }
-.block-password { background-color: #999; color: white; background: #999 url('../img/password-1.png') bottom right repeat-x }
+.block-password {
+	background-color: #999;
+	color: white;
+	background: #999 url('../img/password-1-hand.png') bottom right space no-repeat
+}
 .block-fast { background-color: #231F20; color: white; background: #231F20 url('../img/fast.png') bottom left no-repeat }
-.block-dynamic { background: #1ABC9C url('../img/zerotalk.png') 30% 0% no-repeat; }
+.block-dynamic {
+	background: #1ABC9C url('../img/zerotalk.png') center center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 .block-dynamic-detail h3 { color: #FFFFFF; }
 .block-everywhere { background-color: #F33A58; color: white; background: #F33A58 url('../img/browsers.png') bottom center no-repeat }
 .block-anon { background-color: #34495E; color: white; background: #34495E url('../img/anon.png') bottom right no-repeat }
