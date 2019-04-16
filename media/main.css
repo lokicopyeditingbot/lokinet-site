@@ -64,7 +64,7 @@ a:focus { transition: all 0.3s }
 .platform-windows .head-top .download-other, .platform-mac .head-top .download-other, .platform-oldmac .head-top .download-other, .platform-linux .head-top .download-other, .platform-android .head-top .download-other { display: none }
 
 /*.block-p2p { background-color: #E6E9ED; color: #555; }*/
-.block-p2p { background-color: #5368C3; color: #FFF; background: #2D2D2D url('../img/p2p-3.png') center center no-repeat }
+.block-p2p { background-color: #5368C3; color: #FFF; background: #2D2D2D url('../img/p2p-4.png') bottom center no-repeat }
 .block-p2p-detail { padding-top: 0px; position: relative }
 .block-simple { background-color: #5C5D60; }
 .block-namecoin {
