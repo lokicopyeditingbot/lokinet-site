@@ -20,7 +20,7 @@ a:focus { transition: all 0.3s }
 .block-34 { width: 34% }
 .block-50 { width: 50% }
 .block-67 { width: 67% }
-.block-100 { width: 100%; -webkit-transform: translateY(0px); transform: translateY(0px); opacity: 1 }
+.block-100 { width: 100%; }
 .block ul { margin: 0px; margin-bottom: -20px; padding: 0px; padding-left: 30px; top: 50%; position: absolute; transform: translateY(-50%); -webkit-transform: translateY(-50%); }
 .block li { font-size: 24px; margin-bottom: 25px; list-style-type: none; border-left: 1px solid #20B873; padding-left: 15px; padding-right: 20px; }
 .block li:last-child { margin-bottom: 0px }
@@ -93,7 +93,7 @@ a:focus { transition: all 0.3s }
 .block-anon { background-color: #34495E; color: white; background: #34495E url('../img/anon.png') bottom right no-repeat }
 .block-sybil { background-color: #5C5D60; color: white; background: #5C5D60 url('../img/sybil.png') bottom center no-repeat }
 .block-offline { background-color: #8CC152; color: white; background: #8CC152 url('../img/offline-1.png') bottom no-repeat }
-.block-opensource { min-height: 290px; text-align: center; background-color: #150A45; color: #FFF; background: #150A45 url('../img/opensource.png') center left no-repeat; }
+.block-opensource { min-height: 290px; text-align: center; background-color: #150A45; color: #FFF; background: #150A45 url('../img/opensource.png') center left no-repeat }
 .block-opensource h4 { padding-bottom: 20px }
 .block-opensource .button { color: white }
 .block-coin { background-color: #34495E; color: white; background: #34495E url('../img/coin.png') bottom right no-repeat }
