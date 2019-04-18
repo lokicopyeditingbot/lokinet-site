@@ -93,7 +93,7 @@ a:focus { transition: all 0.3s }
 .block-anon { background-color: #34495E; color: white; background: #34495E url('../img/anon.png') bottom right no-repeat }
 .block-sybil { background-color: #5C5D60; color: white; background: #5C5D60 url('../img/sybil.png') bottom center no-repeat }
 .block-offline { background-color: #8CC152; color: white; background: #8CC152 url('../img/offline-1.png') bottom no-repeat }
-.block-opensource { min-height: 290px; text-align: center; background-color: #150A45; color: #FFF; background: #150A45 url('../img/opensource-1.png') center left no-repeat }
+.block-opensource { min-height: 290px; text-align: center; background-color: #1B133B; color: #FFF; background: #1B133B url('../img/opensource-1.png') center left no-repeat }
 .block-opensource h4 { padding-bottom: 20px }
 .block-opensource .button { color: white }
 .block-coin { background-color: #34495E; color: white; background: #34495E url('../img/coin.png') bottom right no-repeat }
