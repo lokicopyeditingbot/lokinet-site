@@ -80,7 +80,7 @@ a:focus { transition: all 0.3s }
 	color: white;
 	background: #999 url('../img/password-1-hand.png') bottom right space no-repeat
 }
-.block-fast { background-color: #231F20; color: white; background: #231F20 url('../img/fast.png') bottom left no-repeat }
+.block-fast { background-color: #231F20; color: white; background: #231F20 url('../img/fast.png') bottom center no-repeat }
 .block-dynamic {
 	background: #1ABC9C url('../img/zerotalk.png') center center no-repeat;
 	-webkit-background-size: cover;
@@ -136,13 +136,14 @@ a:focus { transition: all 0.3s }
 
 /* Mini screen */
 @media only screen and (max-width: 470px) {
-	.head-top h1 { font-size: 60px; height: 67px; line-height: 70px; width: 196px; }
+	.head-top h1 { font-size: 60px; height: 67px; line-height: 70px; }
 	h2 { font-size: 20px; font-size: 16px; line-height: 30px; }
 	h3 { font-size: 35px; }
-	.block-password { background: #999; }
-	.block-fast { background: #9B59B6 url('../img/fast.png') 10% -30% no-repeat; }
+	.block-password { background: #999 url(../img/password-1-hand.png) bottom right no-repeat; }
+	.block-fast { background: #231F20 url('../img/fast.png') bottom center no-repeat; opacity: 0.5!important; }
+	.block-fast { background-color: #231F20 }
 	.block-opensource .button { font-size: 13px; }
 	.block-follow svg { width: 25px; height: 25px }
 	.block-follow { min-height: 25px }
-	.download-android .button-outline { font-size: 15px }
+	.head-top h1 img { width: 75%; height: auto; }
 }
