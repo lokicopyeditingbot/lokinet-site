@@ -140,7 +140,7 @@ a:focus { transition: all 0.3s }
 	h2 { font-size: 20px; font-size: 16px; line-height: 30px; }
 	h3 { font-size: 35px; }
 	.block-password { background: #999 url(../img/password-1-hand.png) bottom right no-repeat; }
-	.block-fast { background: #231F20 url('../img/fast.png') bottom center no-repeat; opacity: 0.5!important; }
+	.block-fast { background: #231F20 url('../img/fast.png') bottom center no-repeat; }
 	.block-fast { background-color: #231F20 }
 	.block-opensource .button { font-size: 13px; }
 	.block-follow svg { width: 25px; height: 25px }
