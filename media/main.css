@@ -124,6 +124,8 @@ a:focus { transition: all 0.3s }
 	.block-foot, .block-follow { width: 100%; }
 	.block-follow svg { height: 50px }
 	.block-follow { min-height: 50px }
+	.block-33 h3 { font-size: 35px }
+	.block-33 h4 { font-size: 20px }
 }
 
 /* Small screen */
