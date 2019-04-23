@@ -118,14 +118,17 @@ a:focus { transition: all 0.3s }
 #language_menu a { display: block; padding: 10px 20px; border: none; color: black }
 #language_menu a:hover { background-color: #EEE }
 
+@media only screen and (max-width: 1500px) {
+	.block-33 h3 { font-size: 35px }
+	.block-33 h4 { font-size: 20px }
+}
+
 /* Medium screen */
 @media only screen and (max-width: 1200px) {
 	.block li { font-size: 20px }
 	.block-foot, .block-follow { width: 100%; }
 	.block-follow svg { height: 50px }
 	.block-follow { min-height: 50px }
-	.block-33 h3 { font-size: 35px }
-	.block-33 h4 { font-size: 20px }
 }
 
 /* Small screen */
