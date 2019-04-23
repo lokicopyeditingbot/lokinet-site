@@ -67,13 +67,13 @@ a:focus { transition: all 0.3s }
 .block-p2p-detail { padding-top: 0px; position: relative }
 .block-simple { background-color: #5C5D60; }
 .block-namecoin {
-	background: #EC6F6D url('../img/namecoin.png') center center no-repeat;
+	background: #1B133B url('../img/namecoin.png') center center no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 }
-.block-namecoin-detail h3 { color: #EC6F6D; }
+.block-namecoin-detail h3 { color: #1B133B; }
 .block-password {
 	background-color: #999;
 	color: white;
