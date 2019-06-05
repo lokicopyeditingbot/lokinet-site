@@ -11,11 +11,11 @@ a:hover { border-bottom: 1px solid rgba(255,255,255,1); transition: none; }
 a:active { background-color: rgba(255,255,255,0.1) }
 a:focus { transition: all 0.3s }
 
-.button { color: #FDFCDF; padding: 10px 20px; border: 1px solid rgba(255, 255, 255, 0.5); border-radius: 3px; transition: all 0.3s; font-size: 130%; }
-.button:hover { border: 1px solid rgba(255, 255, 255, 1); transition: none; }
+.button { color: #FDFCDF; padding: 10px 20px; border: 1px solid rgba(255, 255, 255, 0.5); border-radius: 10px; transition: all 0.3s; font-size: 130%; }
+.button:hover { color: white!important; box-shadow: 0 0 10px 0 #78be20;  background: linear-gradient(to right, #78be20 0%,#008522 100%); transition-duration: 0.2s; border: 1px solid rgba(255, 255, 255, 1)!important;}
 .button-container { display: inline-block; vertical-align: top; text-align: center; }
 
-.block { padding: 20px; min-height: 350px; float: left; box-sizing: border-box; padding-bottom: 0px; transform: TranslateY(100px); opacity: 0; transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1); }
+.block { padding: 20px; min-height: 400px; float: left; box-sizing: border-box; padding-bottom: 0px; transform: TranslateY(100px); opacity: 0; transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1); }
 .block-33 { width: 33% }
 .block-34 { width: 34% }
 .block-50 { width: 50% }
@@ -24,9 +24,9 @@ a:focus { transition: all 0.3s }
 .block ul { margin: 0px; margin-bottom: -20px; padding: 0px; padding-left: 30px; top: 50%; position: absolute; transform: translateY(-50%); -webkit-transform: translateY(-50%); }
 .block li { font-size: 24px; margin-bottom: 25px; list-style-type: none; border-left: 1px solid #20B873; padding-left: 15px; padding-right: 20px; }
 .block li:last-child { margin-bottom: 0px }
-.block-detail .button { border-color: rgba(19, 171, 131, 0.24); color: #13A980; margin: 20px; margin-bottom: 10px; display: inline-block; }
+.block-detail .button { border-color: rgb(26, 26, 26, 0.5); color: rgb(26, 26, 26, 0.7); margin: 10px; margin-left:20px; display: inline-block; }
 .block-detail .button:hover { border-color: rgba(19, 171, 131, 1); }
-.block-anon .button { border-color: rgba(253, 252, 223, 0.24);; color: #FDFCDF; margin: 20px; margin-bottom: 10px; display: inline-block; }
+.block-anon .button { border-color: rgba(253, 252, 223, 0.24); color: #FDFCDF; margin: 20px; margin-bottom: 10px; display: inline-block; }
 .block-anon .button:hover { border-color: rgba(253, 252, 223, 1); }
 .block-free .button { border-color: rgba(253, 252, 223, 0.24); color: #FDFCDF; margin: 20px; margin-bottom: 10px; display: inline-block; }
 .block-free .button:hover { border-color: rgba(253, 252, 223, 1); }
@@ -48,10 +48,7 @@ a:focus { transition: all 0.3s }
 	-o-background-size: cover;
 	background-size: cover;
 }
-.head-top h1 img {
-  width: 45%;
-  height: auto;
-}
+.head-top h1 img {  width: 45%;  height: auto;}
 .head-top a { color: white; }
 .head-top .download { margin-top: 44px; line-height: 44px; }
 .head-top .download-windows, .head-top .download-mac, .head-top .download-oldmac, .head-top .download-linux, .head-top .download-android { display: none }
@@ -96,7 +93,6 @@ a:focus { transition: all 0.3s }
 .block-opensource h4 { padding-bottom: 20px }
 .block-opensource .button { color: white }
 .block-coin { background-color: #34495E; color: white; background: #34495E url('../img/coin.png') bottom right no-repeat }
-
 .block-foot h2 span { display: inline-block; background-color: #6B14D3; color: white; padding: 6px 10px; margin: 1px; background: linear-gradient(45deg, #20B873 0, #27C43E 15%, #6CBE45 120%); }
 .block-foot, .block-follow { min-height: 240px; }
 .block-follow { text-align: right; padding: 40px; padding-bottom: 0px }
@@ -104,7 +100,7 @@ a:focus { transition: all 0.3s }
 .block-follow .icon:hover { fill: #6CBE45; transition: none; }
 .block-follow .icon:active { fill: #4962DD; transition: none; }
 
-.hosted { font-size: 15px; position: absolute; right: 10px; opacity: 0.7; height: 0px; margin-top: 10px; }
+.hosted { font-size: 15px!important; position: absolute; right: 10px; opacity: 0.7; height: 0px; margin-top: 10px; }
 
 /* Language menu */
 .icon-lang { height: 16px; width: 16px; fill: white; vertical-align: middle; margin-right: 5px; }
@@ -119,8 +115,8 @@ a:focus { transition: all 0.3s }
 #language_menu a:hover { background-color: #EEE }
 
 @media only screen and (max-width: 1500px) {
-	.block-33 h3 { font-size: 35px }
-	.block-33 h4 { font-size: 20px }
+	h3 { font-size: 35px!important }
+	.block-33 h4 { font-size: 24px }
 }
 
 /* Medium screen */
@@ -151,3 +147,4 @@ a:focus { transition: all 0.3s }
 	.block-follow { min-height: 25px }
 	.head-top h1 img { width: 75%; height: auto; }
 }
+
